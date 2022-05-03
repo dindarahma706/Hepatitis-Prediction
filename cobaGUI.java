@@ -3,7 +3,7 @@ import javax.swing.*;
 
 public class cobaGUI extends prosesPeluang implements ActionListener{ //Inhiretance (pewarisan dari class prosesPeluang)
     private JButton btnHasil, btnHapus;  //encapsulasi dengan hak akses priate agar hanya dapat diakses keluarga itu sendiri
-    private JTextField textfield, textfieldNama, textfieldUsia, textfieldBilirubin, textfieldAlkfosfat,  textfieldSgot, textfieldAlbumin, jTFHasil, jTFHidup, jTFMati;  //encapsulasi
+    private JTextField textfield, textfieldNama, textfieldUsia, textfieldBilirubin, textfieldAlkfosfat,  textfieldSgot, textfieldAlbumin, jTFHasil, jTFHidup, jTFMati;  //encapsulasi dengan hak akses priate agar hanya dapat diakses keluarga itu sendiri
     private JLabel label;  //encapsulasi dengan hak akses priate agar hanya dapat diakses keluarga itu sendiri
 
     public cobaGUI(){
