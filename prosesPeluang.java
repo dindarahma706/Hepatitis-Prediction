@@ -1,4 +1,4 @@
-public class prosesPeluang implements proses{  //Inheritance (pewarisan dari super class Input)
+public class prosesPeluang implements proses{  //Inheritance
     private double peluangHidup;    //encapsulasi dengan hak akses private agar hanya dapat diakses kelas itu sendiri
     private double peluangMati;     //encapsulasi dengan hak akses private agar hanya dapat diakses kelas itu sendiri
 

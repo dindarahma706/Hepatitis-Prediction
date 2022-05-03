@@ -1,10 +1,10 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-public class cobaGUI extends prosesPeluang implements ActionListener{
-    private JButton btnHasil, btnHapus;
-    private JTextField textfield, textfieldNama, textfieldUsia, textfieldBilirubin, textfieldAlkfosfat,  textfieldSgot, textfieldAlbumin, jTFHasil, jTFHidup, jTFMati;
-    private JLabel label;
+public class cobaGUI extends prosesPeluang implements ActionListener{ //Inhiretance (pewarisan dari class prosesPeluang)
+    private JButton btnHasil, btnHapus;  //encapsulasi
+    private JTextField textfield, textfieldNama, textfieldUsia, textfieldBilirubin, textfieldAlkfosfat,  textfieldSgot, textfieldAlbumin, jTFHasil, jTFHidup, jTFMati;  //encapsulasi
+    private JLabel label;  //encapsulsi
 
     public cobaGUI(){
         super();
