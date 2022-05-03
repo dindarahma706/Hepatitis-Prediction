@@ -2,12 +2,12 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class cobaGUI extends prosesPeluang implements ActionListener{ //Inhiretance (pewarisan dari class prosesPeluang)
-    private JButton btnHasil, btnHapus;  //encapsulasi
+    private JButton btnHasil, btnHapus;  //encapsulasi dengan hak akses priate agar hanya dapat diakses keluarga itu sendiri
     private JTextField textfield, textfieldNama, textfieldUsia, textfieldBilirubin, textfieldAlkfosfat,  textfieldSgot, textfieldAlbumin, jTFHasil, jTFHidup, jTFMati;  //encapsulasi
-    private JLabel label;  //encapsulsi
+    private JLabel label;  //encapsulasi dengan hak akses priate agar hanya dapat diakses keluarga itu sendiri
 
     public cobaGUI(){
-        super();
+        super(); //inheritance (memanggir konstruktor dari class induk proses peluang)
         JFrame frame = new JFrame();
         frame.setBounds(100,100,900,600);
         frame.setTitle("HEPATITIS");
@@ -90,7 +90,7 @@ public class cobaGUI extends prosesPeluang implements ActionListener{ //Inhireta
         frame.add(jTFHidup);
     }
 
-    public void actionPerformed(ActionEvent e){
+    public void actionPerformed(ActionEvent e){ //override method actionPerformen dari interface ActionListener
 
 
         if(e.getSource()==btnHasil){
